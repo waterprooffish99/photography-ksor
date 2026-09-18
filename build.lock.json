@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:4a2657f88153b79a7c6c552973ed48fbec1dbf1e5ee133010310845e40d851c7",
+  "build_id": "sha256:314f0ebdbdf08f2776a4347bb3b9b5e24044cff131b37e8adb9219862e95f3e4",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "7f699612cb81581bf4331c3db7811b2d804a6bcf",
+  "source_commit": "534f3437d1463bee4765ae13c892a26457aa75dc",
   "dirty": false,
-  "as_of": "2026-09-18T11:14:03.796Z",
+  "as_of": "2026-09-18T12:11:11.569Z",
   "drafts": "hidden",
   "instance_sha256": "a8aacb44dbe8f1f9ef803789df90cea419667b43b8465d5220b82eb6d85e2c69",
   "policy_sha256": "d255f58df1442b3328f5b4ad7a7b3f806f3059da1079010731d01733d93fd5b3",
@@ -27,12 +27,14 @@
   "documents": [
     {
       "path": "composition-fundamentals.md",
-      "sha256": "2db445c688867863e30df8a56a11b1773cb0734cfb82eef8817bde4f8d90de4e",
-      "status": "draft",
+      "sha256": "ded1be85379ae54c2b517b4c922f272bf92ef10662b9246c7db29856220819d3",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "exposure-fundamentals.md",
@@ -47,12 +49,14 @@
     },
     {
       "path": "focus-fundamentals.md",
-      "sha256": "4d373675cf638146324512faeb101b00ec670fca79a380a6b02151aa04038c49",
-      "status": "draft",
+      "sha256": "e341a809248fcee622bd1ad35ab386bf8fe29c217569c68676a1f90f5fac5ea9",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "governance-ladder.md",
@@ -67,21 +71,25 @@
     },
     {
       "path": "low-light-night-photography-fundamentals.md",
-      "sha256": "5d790dfbac9276d631278a34b55dbf6e0f7105f2331aea777342cd45f42d84a6",
-      "status": "draft",
+      "sha256": "cc6cf69d4ddc4bc359e37545eb14381b980756b2e667f4907646820cf56f0923",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "motion-photography-fundamentals.md",
-      "sha256": "6ecec57deeb0b840d079ceaf1d79e992c275667abb2465139c6805260761f856",
-      "status": "draft",
+      "sha256": "69b6ad4a1a5641c808cf06fc854151f0f1177ae8bc9553412311a6e990f14c3b",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "surfaces/for-agents.md",
@@ -148,8 +156,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "fd15d13594c4c29003738d5e919dd4a3fc6c0b126174233b756ec6b9e558c298",
-      "files": 9
+      "sha256": "83836fac529c54aaa1a64d7a41b12e8512a17b05c4e870e1bface6429e747cd1",
+      "files": 13
     }
   ]
 }
