@@ -2,7 +2,8 @@
 type: Document
 title: Exposure Fundamentals
 description: A beginner's guide to how aperture, shutter speed, ISO, metering, and exposure compensation shape image brightness and creative results.
-status: draft
+status: stable
+generated: { by: "process:codex", at: 2026-09-18T07:13:43.321Z }
 sources:
   - id: nikon-exposure-basics
     resource: https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/a-basic-look-at-the-basics-of-exposure
@@ -16,6 +17,7 @@ sources:
 ksor:
   owner: human:salmanhassan
   audience: [public]
+  approval: { by: "human:salmanhassan", at: 2026-09-18T10:24:46Z }
 ---
 
 Photographic exposure describes how light or dark a captured image appears.
