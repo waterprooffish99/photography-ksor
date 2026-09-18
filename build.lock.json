@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "build_id": "sha256:6ba5e0bb03f3f9170696981776325c6fda0e5b8b5048ef1bc4c4351abb0eb978",
+  "build_id": "sha256:4a2657f88153b79a7c6c552973ed48fbec1dbf1e5ee133010310845e40d851c7",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
@@ -8,8 +8,8 @@
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
   "source_commit": "d714101906123fcc8b4ebb127782f96e556cf0c5",
-  "dirty": false,
-  "as_of": "2026-09-18T10:26:30.133Z",
+  "dirty": true,
+  "as_of": "2026-09-18T11:12:47.571Z",
   "drafts": "hidden",
   "instance_sha256": "a8aacb44dbe8f1f9ef803789df90cea419667b43b8465d5220b82eb6d85e2c69",
   "policy_sha256": "d255f58df1442b3328f5b4ad7a7b3f806f3059da1079010731d01733d93fd5b3",
@@ -26,6 +26,15 @@
   },
   "documents": [
     {
+      "path": "composition-fundamentals.md",
+      "sha256": "2db445c688867863e30df8a56a11b1773cb0734cfb82eef8817bde4f8d90de4e",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
       "path": "exposure-fundamentals.md",
       "sha256": "68758e168974903cd73af20ec479be23c99d7dbed2c53124152a64ff42eab206",
       "status": "stable",
@@ -37,6 +46,15 @@
       ]
     },
     {
+      "path": "focus-fundamentals.md",
+      "sha256": "4d373675cf638146324512faeb101b00ec670fca79a380a6b02151aa04038c49",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
       "path": "governance-ladder.md",
       "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
       "status": "stable",
@@ -46,6 +64,24 @@
       "admitted": [
         "public"
       ]
+    },
+    {
+      "path": "low-light-night-photography-fundamentals.md",
+      "sha256": "5d790dfbac9276d631278a34b55dbf6e0f7105f2331aea777342cd45f42d84a6",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
+    },
+    {
+      "path": "motion-photography-fundamentals.md",
+      "sha256": "6ecec57deeb0b840d079ceaf1d79e992c275667abb2465139c6805260761f856",
+      "status": "draft",
+      "audience": [
+        "public"
+      ],
+      "admitted": []
     },
     {
       "path": "surfaces/for-agents.md",
@@ -102,7 +138,7 @@
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "c44811ad3284e21400e3e50901c83445511106230c12ab0a9d3728629373cf1f"
+      "sha256": "d1084129df2942523083cc5de98df09161e0a1ca8d819d6b93c786e055fc8604"
     },
     {
       "path": "surfaces/index.md",
