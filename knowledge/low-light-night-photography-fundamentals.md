@@ -2,7 +2,8 @@
 type: Document
 title: Low-Light & Night Photography Fundamentals
 description: A beginner's guide to balancing motion, camera stability, focus, noise, and bright lights in dark scenes.
-status: draft
+status: stable
+generated: { by: "process:codex", at: 2026-09-18T16:13:33+05:00 }
 sources:
   - id: nikon-low-light
     resource: https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-steps-for-getting-great-low-light-photographs-this-halloween
@@ -19,6 +20,7 @@ sources:
 ksor:
   owner: human:salmanhassan
   audience: [public]
+  approval: { by: "human:salmanhassan", at: 2026-09-18T16:17:00+05:00 }
 ---
 
 Low-light photography is difficult because less light reaches the camera. To

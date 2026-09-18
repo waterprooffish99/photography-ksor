@@ -2,7 +2,8 @@
 type: Document
 title: Motion Photography Fundamentals
 description: A beginner's guide to panning with moving subjects, combining Salman's experience with manufacturer-supported technique.
-status: draft
+status: stable
+generated: { by: "process:codex", at: 2026-09-18T16:13:33+05:00 }
 sources:
   - id: salman-motion-interview-2026-09-18
     resource: "Interview with human:salmanhassan (Photography hobbyist and Photography KSoR owner/approver), 2026-09-18, conducted in the governing conversation with process:codex"
@@ -19,6 +20,7 @@ sources:
 ksor:
   owner: human:salmanhassan
   audience: [public]
+  approval: { by: "human:salmanhassan", at: 2026-09-18T16:17:00+05:00 }
 ---
 
 Panning follows a moving subject with the camera during the exposure. The goal

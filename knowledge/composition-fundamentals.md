@@ -2,7 +2,8 @@
 type: Document
 title: Composition Fundamentals
 description: A beginner's guide to arranging subjects, space, lines, viewpoint, and background within a photograph.
-status: draft
+status: stable
+generated: { by: "process:codex", at: 2026-09-18T16:13:33+05:00 }
 sources:
   - id: nikon-composition-guidelines
     resource: https://www.nikonusa.com/learn-and-explore/c/tips-and-techniques/5-easy-composition-guidelines
@@ -16,6 +17,7 @@ sources:
 ksor:
   owner: human:salmanhassan
   audience: [public]
+  approval: { by: "human:salmanhassan", at: 2026-09-18T16:17:00+05:00 }
 ---
 
 Composition is how the photographer chooses what appears inside the frame and

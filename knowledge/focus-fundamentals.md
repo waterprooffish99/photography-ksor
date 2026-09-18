@@ -2,7 +2,8 @@
 type: Document
 title: Focus Fundamentals
 description: A beginner's guide to choosing what appears sharp and using autofocus for still and moving subjects.
-status: draft
+status: stable
+generated: { by: "process:codex", at: 2026-09-18T16:13:33+05:00 }
 sources:
   - id: cambridge-autofocus
     resource: https://www.cambridgeincolour.com/tutorials/camera-autofocus.htm
@@ -19,6 +20,7 @@ sources:
 ksor:
   owner: human:salmanhassan
   audience: [public]
+  approval: { by: "human:salmanhassan", at: 2026-09-18T16:17:00+05:00 }
 ---
 
 Focus determines which subject distance is rendered most sharply. Light from
