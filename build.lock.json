@@ -1,15 +1,15 @@
 {
   "format": 1,
-  "build_id": "sha256:0c6ab7150e9264f25533e19d96a6329e57b9e997813d3db0b37ad21378ea8147",
+  "build_id": "sha256:6ba5e0bb03f3f9170696981776325c6fda0e5b8b5048ef1bc4c4351abb0eb978",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "79752754a46ee1c129de1cf7d1aed332b9cd1655",
-  "dirty": true,
-  "as_of": "2026-09-18T07:14:42.959Z",
+  "source_commit": "d714101906123fcc8b4ebb127782f96e556cf0c5",
+  "dirty": false,
+  "as_of": "2026-09-18T10:26:30.133Z",
   "drafts": "hidden",
   "instance_sha256": "a8aacb44dbe8f1f9ef803789df90cea419667b43b8465d5220b82eb6d85e2c69",
   "policy_sha256": "d255f58df1442b3328f5b4ad7a7b3f806f3059da1079010731d01733d93fd5b3",
@@ -27,12 +27,14 @@
   "documents": [
     {
       "path": "exposure-fundamentals.md",
-      "sha256": "428cf397bde309907cae1791fd9dbf63dfd234016f165b544f25144a9fe1fa6a",
-      "status": "draft",
+      "sha256": "68758e168974903cd73af20ec479be23c99d7dbed2c53124152a64ff42eab206",
+      "status": "stable",
       "audience": [
         "public"
       ],
-      "admitted": []
+      "admitted": [
+        "public"
+      ]
     },
     {
       "path": "governance-ladder.md",
@@ -110,8 +112,8 @@
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "93ea1f9dbda82dd41ea8b3eed1bd2832143cf059b8d10b64900cfaebd69386ee",
-      "files": 8
+      "sha256": "fd15d13594c4c29003738d5e919dd4a3fc6c0b126174233b756ec6b9e558c298",
+      "files": 9
     }
   ]
 }
