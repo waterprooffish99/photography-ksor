@@ -1,18 +1,18 @@
 {
   "format": 1,
-  "build_id": "sha256:314f0ebdbdf08f2776a4347bb3b9b5e24044cff131b37e8adb9219862e95f3e4",
+  "build_id": "sha256:6f4b60be001740c80941e1e296270e0df53ec7cd25de8ac1fde3d29a84537013",
   "ksor_version": "0.0.60",
   "okf": {
     "version": "0.2",
     "commit": "ad30107c31c06aec8a7d5636e0d1058118604e6f",
     "spec_sha256": "26aa5da029278939f914e578107242d9607d4f2dc5fe153272b82f9ed1030101"
   },
-  "source_commit": "534f3437d1463bee4765ae13c892a26457aa75dc",
+  "source_commit": "4de60776014b7ace472efc269a2377a0ce7c382f",
   "dirty": false,
-  "as_of": "2026-09-18T12:11:11.569Z",
+  "as_of": "2026-09-19T04:49:31.686Z",
   "drafts": "hidden",
   "instance_sha256": "a8aacb44dbe8f1f9ef803789df90cea419667b43b8465d5220b82eb6d85e2c69",
-  "policy_sha256": "d255f58df1442b3328f5b4ad7a7b3f806f3059da1079010731d01733d93fd5b3",
+  "policy_sha256": "10d560d4470f61d58900901ab71dff15ce2f7eab7f06d4b8a79ba006323990ce",
   "people_sha256": "ca37166f41814c1bf70329f1fa70d9b7c665a10d34b701a7c5f7ab572a68f51e",
   "ledger_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "ledger_entries": [],
@@ -59,17 +59,6 @@
       ]
     },
     {
-      "path": "governance-ladder.md",
-      "sha256": "c0dc26f31fcbb19128db8bd3e8aca068439814a784e889bf5c35827fc43479a0",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
       "path": "low-light-night-photography-fundamentals.md",
       "sha256": "cc6cf69d4ddc4bc359e37545eb14381b980756b2e667f4907646820cf56f0923",
       "status": "stable",
@@ -90,74 +79,21 @@
       "admitted": [
         "public"
       ]
-    },
-    {
-      "path": "surfaces/for-agents.md",
-      "sha256": "1ab26915897ba587518a50fa811b54898acbd09967f76f9ccbf684e58256a49b",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "surfaces/for-people.md",
-      "sha256": "3cb26786225dedca5d871f9bb3dbc5a0913c7fec870c34aeae52862b31fc56ae",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "surfaces/overview.md",
-      "sha256": "d35e5c61df23ffc83d2542b6501fde1b989c3e23b846273d7f969af2e6edd4c2",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
-    },
-    {
-      "path": "what-is-a-ksor.md",
-      "sha256": "2b2139295ff479719bcd02c7ba5eda6ea39d408c34ee4cb7bd6528ff7f1b90e4",
-      "status": "stable",
-      "audience": [
-        "public"
-      ],
-      "admitted": [
-        "public"
-      ]
     }
   ],
-  "companions": [
-    {
-      "path": "what-is-a-ksor.summary.md",
-      "sha256": "6e28d107e4903f124ff5eb7b82ca8edbf63c4ba6a20ccd2efdf07a72a2481df5"
-    }
-  ],
+  "companions": [],
   "assets": [],
   "indexes": [
     {
       "path": "index.md",
-      "sha256": "d1084129df2942523083cc5de98df09161e0a1ca8d819d6b93c786e055fc8604"
-    },
-    {
-      "path": "surfaces/index.md",
-      "sha256": "e82913fbd744929824ec494cd87d50d1451856df0d7d321d51df2b7be773314c"
+      "sha256": "1e3e0ba0ccff1b4548abbc569e0e66d7cda6630d8b1c016340426634826e36b5"
     }
   ],
   "bundles": [
     {
       "viewer": "public",
-      "sha256": "83836fac529c54aaa1a64d7a41b12e8512a17b05c4e870e1bface6429e747cd1",
-      "files": 13
+      "sha256": "3ef56ce20d16a28a8cfc1b171fc536edab45c904ed64d0cdb9e796396532b70e",
+      "files": 6
     }
   ]
 }
