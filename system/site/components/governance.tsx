@@ -237,7 +237,7 @@ export function GovernanceMeta({
    * agent parses.
    */
   return (
-    <div className="mb-7 border-b border-fd-border pb-4">
+    <div className="ksor-governance-meta mb-8 rounded-lg border border-fd-border px-4 py-3.5 sm:px-5">
       <dl className="flex flex-wrap items-baseline gap-x-8 gap-y-2.5">
         {state === null && alsoBadge === null ? null : (
           <Fact label="Status">
@@ -370,7 +370,7 @@ export function Provenance({
   if (entries.length === 0) return null;
 
   return (
-    <section className="mt-10 border-t border-fd-border pt-5 text-sm">
+    <section className="ksor-provenance mt-12 rounded-lg border border-fd-border px-4 py-4 text-sm sm:px-5">
       <h2 className="ksor-section-label mb-2">Sources</h2>
       {/* break-words, because a source is often a long unbroken URL: on a
           phone it overflowed its row by 175px under an ancestor with

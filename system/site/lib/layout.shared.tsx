@@ -1,5 +1,6 @@
 import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
 
+import { PhotographyMark } from "@/components/photography-mark";
 import { SignIn } from "@/components/sign-in";
 import { appTitle } from "./shared";
 
@@ -10,8 +11,13 @@ export function baseOptions(): BaseLayoutProps {
       // Truncated: a long title forced horizontal scroll on mobile without it
       // (found live, 2026-08-18).
       title: (
-        <span className="max-w-[60vw] truncate font-display text-[0.9375rem] font-semibold tracking-[-0.005em] sm:max-w-none">
-          {appTitle}
+        <span className="flex max-w-[68vw] items-center gap-2.5 sm:max-w-none">
+          <span className="flex size-7 shrink-0 items-center justify-center rounded-md border border-fd-border bg-fd-muted text-fd-primary">
+            <PhotographyMark className="size-[1.125rem]" />
+          </span>
+          <span className="truncate font-display text-[0.9375rem] font-semibold tracking-[-0.005em]">
+            {appTitle}
+          </span>
         </span>
       ),
     },

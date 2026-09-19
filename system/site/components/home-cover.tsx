@@ -1,7 +1,7 @@
 import Link from "next/link";
-import Image, { type StaticImageData } from "next/image";
 import type { ReactElement } from "react";
 
+import { PhotographyMark } from "@/components/photography-mark";
 import { RecordStack } from "@/components/record-stack";
 import type { RecordEntry } from "@/lib/source";
 
@@ -20,7 +20,6 @@ import type { RecordEntry } from "@/lib/source";
  */
 export function HomeCover({
   foot,
-  mark,
   name,
   title,
   purpose,
@@ -29,7 +28,6 @@ export function HomeCover({
   lead,
   behind,
 }: {
-  mark: StaticImageData;
   name: string;
   title: string;
   purpose: string | null;
@@ -47,37 +45,28 @@ export function HomeCover({
   // background showing beneath it. `dvh` rather than `vh`, so a phone's
   // collapsing browser chrome does not leave a gap at the bottom.
   return (
-    <section className="relative flex min-h-[calc(100dvh-3.5rem)] flex-col bg-[var(--ksor-cover)] text-[var(--ksor-cover-foreground)]">
+    <section className="ksor-home-cover relative flex min-h-[calc(100dvh-3.5rem)] flex-col overflow-hidden bg-[var(--ksor-cover)] text-[var(--ksor-cover-foreground)]">
       {/* A ruled ground — the ledger's own lines, not a texture. Masked to
           fade at both ends: at full strength edge to edge the rules read as
           stripes ACROSS the composition rather than as the paper under it. */}
       <div
         aria-hidden
-        className="pointer-events-none absolute inset-0 opacity-[0.06]"
-        style={{
-          backgroundImage:
-            "repeating-linear-gradient(to bottom, currentColor 0 1px, transparent 1px 2.25rem)",
-          maskImage: "linear-gradient(to bottom, transparent, black 22%, black 70%, transparent)",
-        }}
+        className="ksor-cover-ground pointer-events-none absolute inset-0"
       />
+      <div aria-hidden className="ksor-exposure-scale pointer-events-none absolute" />
 
       {/* Centred in the space ABOVE the signature, not top-aligned with the
           slack dumped underneath: `justify-center` on the section was cancelled
           by the signature's `mt-auto`, which measured as 197px of dead space
           below the content and none above it (found live 2026-08-22). */}
       <div className="relative flex flex-1 items-center">
-        <div className="mx-auto grid w-full max-w-6xl items-center gap-16 px-6 py-14 lg:grid-cols-[1fr_1fr] lg:gap-20">
+        <div className="mx-auto grid w-full max-w-6xl items-center gap-12 px-6 py-14 sm:gap-16 lg:grid-cols-[1fr_1fr] lg:gap-20">
           <div>
             <div className="motion-safe:animate-in motion-safe:fade-in motion-safe:slide-in-from-bottom-2 motion-safe:duration-500">
               <div className="flex items-center gap-3">
-                <Image
-                  src={mark}
-                  alt=""
-                  width={30}
-                  height={30}
-                  priority
-                  className="size-[30px] rounded ring-1 ring-[var(--ksor-cover-rule)]"
-                />
+                <span className="ksor-mark-frame flex size-9 items-center justify-center rounded-md border border-[var(--ksor-cover-rule)] bg-[var(--ksor-cover-panel)] text-fd-primary">
+                  <PhotographyMark className="size-6" />
+                </span>
                 <p className="font-mono text-xs tracking-[0.18em] text-[var(--ksor-cover-muted)] uppercase">
                   System of record
                   <span aria-hidden className="mx-2 text-[var(--ksor-cover-rule)]">
@@ -87,7 +76,7 @@ export function HomeCover({
                 </p>
               </div>
 
-              <h1 className="mt-8 max-w-4xl font-display text-[clamp(2.5rem,5vw,4rem)] leading-[1.02] font-semibold tracking-[-0.022em] text-balance">
+              <h1 className="mt-8 max-w-4xl font-display text-[clamp(2.35rem,4.5vw,3.5rem)] leading-[1.06] font-semibold tracking-[-0.018em] text-balance">
                 {title}
               </h1>
 
