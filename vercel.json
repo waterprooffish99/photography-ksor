@@ -4,7 +4,7 @@
     "site": {
       "root": ".",
       "installCommand": "pnpm install --no-frozen-lockfile",
-      "buildCommand": "pnpm build",
+      "buildCommand": "if [ \"$(git rev-parse --is-shallow-repository)\" = \"true\" ]; then git fetch --unshallow; fi && pnpm build",
       "outputDirectory": "system/site/out"
     },
     "door": {
